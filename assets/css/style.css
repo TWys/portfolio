@@ -1,0 +1,264 @@
+nav {
+    position: fixed!important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-variant: small-caps;
+    opacity: 0.8;
+}
+
+.navbar-collapse ul {
+    float:right;
+    text-align: right;
+}
+
+.home {
+    background: url('../img/2350-bw.jpg') center/cover no-repeat;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+
+.home_title {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-variant: small-caps;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    font-size: 3em;
+    margin-top: 15vh;
+}
+
+#title {
+    font-size: 2em;
+}
+
+#slogan {
+    font-size: 1.5em;
+}
+
+#line {
+    border: 2px solid red;
+    width: 25vw;
+}
+
+#typed {
+	color: orange;
+}
+
+.typed-cursor {
+	color: orange;
+}
+
+.about {
+    background: url('../img/O7MF5N0.jpg') center/cover no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about_text {
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+.about_text > a {
+    color: #2aabd2;
+}
+
+.about_text > a:hover {
+    color: #2aabd2;
+}
+
+.skills {
+    background: linear-gradient(#656565, #0f0f0f);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: -ms-flexbox; /*For IE*/
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#skills_text {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 0 15px 30px; /*top right-left bottom */
+}
+
+.icons {
+    text-align: center;
+}
+
+.tech_imgs {
+    max-width: 5.5em;
+    height: 5.5em;
+    margin-top: 3em;
+}
+
+.tech_imgs:hover {
+}
+
+.contact {
+    background: url('../img/map_blur2.png');
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: -ms-flexbox; /*For IE*/
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.dane {
+    background-color: #2aabd2;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    height: 225px;
+}
+
+.dane > p {
+    font-weight: 700;
+    font-size: 2em;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#my_photo {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.dane > span {
+    text-align: center;
+}
+
+.social_media {
+    font-size: 20px;
+    position: absolute;
+}
+
+.dane > a {
+    color: white;
+}
+
+.dane > a > .icon-github-circled{
+    bottom: 10px;
+    right: 0px;
+}
+
+.dane > a > .icon-github-circled:hover {
+    font-size: 25px;
+}
+
+.dane > a > .icon-linkedin{
+    bottom: 40px;
+    right: 0px;
+}
+
+.dane > a > .icon-linkedin:hover {
+    font-size: 25px;
+}
+
+form > input {
+    border-radius: 1px;
+    font-size: 1.3em;
+    border: 0px;
+    padding: 5px 8px;
+    width: 48%!important;
+}
+
+#form_mail {
+    float:right;
+}
+
+form:focus {
+    border: 1px solid #2aabd2;
+}
+
+.contact_form {
+    text-align: center;
+}
+
+.contact_form > p {
+    font-weight: 700;
+}
+
+#form_text {
+    padding: 5px 8px;
+    font-size: 1.3em;
+    width: 100%;
+    border: none;
+}
+
+form > button {
+    background-color: #2aabd2;
+    color: white;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+}
+
+#send_form_status {
+    font-size: 1.3em;
+}
+
+@media (max-width: 1030px) {
+    .dane > p {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .about {
+        background: url('../img/O7MF5N0_rwd.jpg') center/cover no-repeat;
+    }
+    /*.about_text {*/
+        /*-webkit-text-stroke: 1px black;*/
+    /*}*/
+
+    form > input {
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .icons {
+        padding-bottom: 50px;
+    }
+}
