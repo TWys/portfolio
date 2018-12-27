@@ -48,7 +48,7 @@ nav {
 
 #line {
     border: 2px solid red;
-    width: 25vw;
+    width: 30vw;
 }
 
 #typed {
@@ -244,7 +244,16 @@ form > button {
 }
 
 @media (max-width: 767px) {
-    .about {
+	
+	#name {
+		margin-top: 10vh;	
+	}
+	
+	#line {
+		width: 75vw;
+	}		
+    
+	.about {
         background: url('../img/O7MF5N0_rwd.jpg') center/cover no-repeat;
     }
     /*.about_text {*/
